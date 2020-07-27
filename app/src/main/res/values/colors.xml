@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transwhite">#cccccc</color>
+    <color name="white">#ffffff</color>
+
+    <color name="blue_light">#29274B</color>
+    <color name="blue_dark">#171433</color>
+    <color name="request_back">#7494D3</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="accept">#209C83</color>
+    <color name="ignore">#375180</color>
+
+</resources>

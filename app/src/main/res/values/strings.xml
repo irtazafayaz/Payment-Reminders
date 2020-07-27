@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Payment Reminders</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accept">Accept</string>
+    <string name="ignore">Ignore</string>
+    <string name="title_activity_second_request">SecondRequestActivity</string>
+</resources>

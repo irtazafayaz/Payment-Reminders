@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "352393145602",
+    "firebase_url": "https://paymentreminders-32086.firebaseio.com",
+    "project_id": "paymentreminders-32086",
+    "storage_bucket": "paymentreminders-32086.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352393145602:android:e2c2af486aeb37c475e61b",
+        "android_client_info": {
+          "package_name": "com.example.paymentreminders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352393145602-52kt13v7ok0fafvim7eorrfg1b6mhcbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYy-M6AQsikHjgNZM2Kdkt2H4kowLb5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352393145602-52kt13v7ok0fafvim7eorrfg1b6mhcbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

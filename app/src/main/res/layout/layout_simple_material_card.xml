@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/simple_display_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@null"
+            tools:src="@drawable/received_button_green" />
+
+        <LinearLayout
+            android:id="@+id/simple_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toStartOf="@+id/simple_price_value"
+            android:layout_toEndOf="@id/simple_display_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/simple_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Irtaza Fayaz" />
+
+            <TextView
+                android:id="@+id/simple_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:text="Title : Yesterday Lunch" />
+
+            <TextView
+                android:id="@+id/simple_time_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                tools:text="Date and Time : 02 Aug 2018 07:30 PM" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/simple_price_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:drawableTop="@drawable/money_sign"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            tools:text="Rs 570" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/simple_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:text="Status = Pending" />
+
+</LinearLayout>
